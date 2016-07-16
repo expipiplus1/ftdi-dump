@@ -1,6 +1,14 @@
 # A program for sumping the EEPROM contents from an FT2232H chip
 
-At the moment one can follow the instructions in ReadMe.txt and run the
-examples in examples/EEPROM/read and examples/EEPROM/user/read.
+To use
 
-I'm working on a more friendly way of doing this.
+```
+make
+./dump
+```
+
+If `dump` fails, it might be necessary to remove a couple of interfering kernel modules
+
+```
+sudo rmmod ftdi_sio && sudo rmmod usbserial
+```

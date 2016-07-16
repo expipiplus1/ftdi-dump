@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
-#include "../../ftd2xx.h"
+#include "ftd2xx.h"
 
 int print_user_data();
 
